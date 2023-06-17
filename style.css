@@ -40,7 +40,8 @@ html, body {
 
 .attribution { 
     font-size: 11px; 
-    text-align: center; 
+    text-align: center;
+    padding: 20px; 
 }
 
 .attribution a { 
