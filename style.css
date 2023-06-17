@@ -5,36 +5,33 @@ html, body {
     justify-content: center;
     align-items: center;
     font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    min-height: 100vh;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto;
+    max-width: 375px;
+}
+
+.QR-container {
+    margin: 0 1rem;
+    text-align: center;
+    padding: 18px;
+    border-radius: 18px;
     background-color: white;
-    width: 375px;
-    border-radius: 20px;
-    padding: 15px;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.QR-container img {
+    width: 100%;
+    border-radius: 12px;
 }
 
-.flex-container img {
-    width: 95%;
-    border-radius: 15px;
-}
-
-.flex-container h1, p {
+.QR-container h1, p {
     text-align: center;
 }
 
-.flex-container p {
+.QR-container p {
     color: gray;
 }
 
