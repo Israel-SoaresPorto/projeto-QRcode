@@ -1,46 +1,51 @@
-html, body {
-    background-color: hsl(220, 15%, 55%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Outfit', sans-serif;
-    font-size: 15px;
-    min-height: 100vh;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: hsl(220, 15%, 55%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  min-height: 100vh;
 }
 
 .container {
-    margin: 0 auto;
-    max-width: 375px;
+  max-width: 23.5rem;
 }
 
 .QR-container {
-    margin: 0 1rem;
-    text-align: center;
-    padding: 18px;
-    border-radius: 18px;
-    background-color: white;
+  margin: 0 1rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: white;
 }
 
 .QR-container img {
-    width: 100%;
-    border-radius: 12px;
+  width: 100%;
+  border-radius: 0.75rem;
 }
 
-.QR-container h1, p {
-    text-align: center;
+.QR-container h1 {
+  margin-bottom: 1.5rem;
 }
 
 .QR-container p {
-    color: gray;
+  color: gray;
 }
 
-.attribution { 
-    font-size: 11px; 
-    text-align: center;
-    padding: 20px; 
+.attribution {
+  font-size: 0.7rem;
+  text-align: center;
+  padding: 1.25rem;
 }
 
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
